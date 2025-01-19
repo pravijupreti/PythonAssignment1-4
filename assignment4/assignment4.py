@@ -1,5 +1,4 @@
 # assignment4.py
-
 from assignment4.sentence_operator import sentence_operator
 
 class Assignment4:
