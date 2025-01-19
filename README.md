@@ -66,3 +66,32 @@ To run this program locally, you need to have Python installed. Follow these ste
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/assignment-program.git
+
+### Breakdown:
+
+1. **Installation**: 
+   - Clone the repo
+   - Navigate to the directory
+   - Create and activate a virtual environment
+   - Install dependencies
+
+2. **Usage**: 
+   - Running the program (`python main.py`)
+   - Description of how the user interacts with the program
+   - Option to select an assignment
+
+3. **Contributing**: 
+   - Steps for contributing to the repository (fork, clone, create branch, push, pull request)
+
+4. **License**: 
+   - Information about licensing (e.g., MIT License, assuming you choose MIT).
+
+This provides all the necessary details for setting up, running, and contributing to the project.
+
+Let me know if you need further help!
+
+
+
+
+
+
