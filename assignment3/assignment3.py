@@ -1,5 +1,5 @@
-from assignment3.paymetProcessor import PaymentProcessor
-from assignment3.productManager import ProductManager
+from assignment3.paymet_Processor import PaymentProcessor
+from assignment3.product_Manager import ProductManager
 
 class Assignment3:
     @staticmethod

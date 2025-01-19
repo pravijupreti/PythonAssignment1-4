@@ -1,7 +1,7 @@
-from assignment3.Assignment3 import Assignment3
-from Assignment1.string_test import StringTester
+from assignment1.string_test import StringTester
 from assignment2.assignment2 import Assignment2
 from assignment4.assignment4 import Assignment4
+from assignment3.assignment3 import Assignment3
 
 def main():
     while True:
