@@ -4,8 +4,22 @@ from assignment2.assignment2 import Assignment2
 from assignment4.assignment4 import Assignment4
 
 def main():
-    assesment = int(input("Enter the assesment no:"))
-    
+    while True:
+        try:
+            # Prompt user for input and ensure it's an integer between 1 and 4
+            assesment = int(input("Enter the assessment number (1-4): "))
+            
+            # Check if the input is within the valid range
+            if assesment < 1 or assesment > 4:
+                print("Invalid input. Please enter an integer between 1 and 4.")
+                continue
+            
+            break  # Exit the loop if the input is valid
+            
+        except ValueError:
+            # Handle the case where the input is not an integer
+            print("Invalid input. Please enter a valid integer.")
+
     match assesment:
         case 3:
             # Create an instance of Assignment3 and call the method
